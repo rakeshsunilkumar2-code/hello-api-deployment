@@ -75,7 +75,8 @@ The API can be tested in terminal, and the output will be:
 
 {"message":"Hello User."}
 Take a screenshot of this output and your PM2 status to show the server is running.
-<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/8eeffc88-e731-4344-86dd-f8fa46942a1c" />
+<img width="1470" height="956" alt="output" src="https://github.com/user-attachments/assets/314fdf82-9a9c-4967-b185-02dfa53ec164" />
+
 
 
 ** PM2 Commands **
