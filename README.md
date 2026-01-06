@@ -14,6 +14,7 @@ The API provides a single endpoint `/sayHello` that returns a greeting message i
 - Supports cluster mode for production
 
 ---
+<img width="1470" height="956" alt="output" src="https://github.com/user-attachments/assets/3cdc769c-00d3-4d87-bd05-dd0783eab925" />
 
 ##  Prerequisites
 Make sure you have installed:
@@ -22,6 +23,8 @@ Make sure you have installed:
 - PM2 (`npm install -g pm2`)
 
 ---
+
+
 
 ##  Project Structure
 simple-backend-api/
