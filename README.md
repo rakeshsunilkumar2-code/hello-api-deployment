@@ -14,6 +14,10 @@ The API provides a single endpoint `/sayHello` that returns a greeting message i
 - Supports cluster mode for production
 
 ---
+** Output Screenshot **
+
+The API can be tested in terminal, and the output will be:
+
 <img width="1470" height="956" alt="output" src="https://github.com/user-attachments/assets/3cdc769c-00d3-4d87-bd05-dd0783eab925" />
 
 ##  Prerequisites
@@ -70,16 +74,9 @@ Test using terminal:
 
 curl http://localhost/sayHello
 
-** Result Screenshot **
-
-The API can be tested in terminal, and the output will be:
-
-
+** Result **
 
 {"message":"Hello User."}
-Take a screenshot of this output and your PM2 status to show the server is running.
-<img width="1470" height="956" alt="output" src="https://github.com/user-attachments/assets/314fdf82-9a9c-4967-b185-02dfa53ec164" />
-
 
 
 ** PM2 Commands **
