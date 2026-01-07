@@ -18,7 +18,9 @@ The API provides a single endpoint `/sayHello` that returns a greeting message i
 
 The API can be tested in terminal, and the output will be:
 
-<img width="1470" height="956" alt="output" src="https://github.com/user-attachments/assets/3cdc769c-00d3-4d87-bd05-dd0783eab925" />
+<img width="1407" height="792" alt="image" src="https://github.com/user-attachments/assets/74119f3d-cb1c-4cb3-8314-c79b136cc6ea" />
+
+
 
 ##  Prerequisites
 Make sure you have installed:
@@ -57,9 +59,9 @@ npm start
 OR start using PM2 (recommended for production):
 
 
-pm2 start ecosystem.config.js
+pm2 start index.js --name hello-api -i max
 pm2 status
-pm2 logs hello-api
+pm2 logs 
  API Usage
 Endpoint: /sayHello
 
@@ -78,21 +80,6 @@ curl http://localhost/sayHello
 
 {"message":"Hello User."}
 
-
-** PM2 Commands **
-Start app: pm2 start ecosystem.config.js
-
-Reload app: pm2 reload ecosystem.config.js
-
-Show status: pm2 status
-
-Show logs: pm2 logs hello-api
-
-Save process list: pm2 save
-
-Stop app: pm2 stop hello-api
-
-Delete app: pm2 delete hello-api
 
 **Author**
 Rakesh
